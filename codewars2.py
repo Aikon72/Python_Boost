@@ -3,7 +3,7 @@ def validate_base(num: str, base: int) -> bool:
         if ord(symb) >= base + 55 if symb.isalpha() else 48:
             return False
     return True
-
-num = 'ABCDEffdknlkgfklhtrgj hgdknfjnrtnF'
+gggh = 54
+num = 'ABdshuhardsgjCDEfgdknfjnrtnF'#fgdhgh
 base = 16
 print(validate_base(num, base))
