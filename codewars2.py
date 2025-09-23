@@ -4,6 +4,6 @@ def validate_base(num: str, base: int) -> bool:
             return False
     return True
 gggh = 54
-num = 'ABdshuhrdsgjCDEfgdknfjnrtnF'#fgdhgh
+num = 'ABCDEF'#fgdhg
 base = 16
 print(validate_base(num, base))
