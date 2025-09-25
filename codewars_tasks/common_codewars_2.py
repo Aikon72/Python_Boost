@@ -2,6 +2,8 @@
 # Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
 # Example: ["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
 # None of the arrays will be empty, so you don't have to worry about that!
+import time
+import random
 
 def remove_every_other_sb(my_list):
     arr = []
@@ -16,19 +18,24 @@ def remove_every_other_serge(my_list):
     return my_list[::2]
 
 def remove_every_other_Olga(my_list):
-    i = 1
-    n = len(my_list)
-    while i < n:
-        my_list.pop(i)
-        i += 1
-        n -= 1
-    return my_list
 
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    return [my_list[i] for i in range(0, len(my_list), 2)]
+
+
+arr = [random.randint(1,100) for _ in range(1000) ]
+
+t1 = time.perf_counter()
 print(remove_every_other_sb(arr))
+t2 = time.perf_counter()
+print(t2-t1)
 
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+t1 = time.perf_counter()
 print(remove_every_other_serge(arr))
+t2 = time.perf_counter()
+print(t2-t1)
 
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+t1 = time.perf_counter()
 print(remove_every_other_Olga(arr))
+t2 = time.perf_counter()
+print(t2-t1)
+
