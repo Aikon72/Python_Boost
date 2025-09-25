@@ -3,8 +3,17 @@
 # Example: ["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
 # None of the arrays will be empty, so you don't have to worry about that!
 
-def remove_every_other(my_list):
-    pass
+def remove_every_other_sb(my_list):
+    arr = []
+    k = True
+    for c in my_list:
+        if k:
+            arr.append(c)
+        k = not k
+    return arr
+
+def remove_every_other_serge(my_list):
+    return my_list[::2]
 
 def remove_every_other_Olga(my_list):
     i = 1
@@ -16,5 +25,10 @@ def remove_every_other_Olga(my_list):
     return my_list
 
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(remove_every_other_sb(arr))
 
-print(remove_every_other(arr))
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(remove_every_other_serge(arr))
+
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(remove_every_other_Olga(arr))
