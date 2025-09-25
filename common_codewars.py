@@ -7,7 +7,11 @@ def move_zeros(lst):
     counter_0 = 0
     # Какой цикл?
     # sb/Было бы неплохо While, но For должен сработать тоже
+    # sb:Добавлять в конец - это я помню .append , а как вырезать?
     for i in range(0, len(lst)):
+
+
+
 
     return lst
 
