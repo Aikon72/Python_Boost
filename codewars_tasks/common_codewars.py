@@ -15,6 +15,18 @@ def move_zeros_serge(lst):
         i += 1
     return lst
 
+def move_zeros_olga(lst):
+    counter_0 = i = 0
+    n = len(lst)
+    while i < n:
+        if lst[i] == 0:
+            del lst[i]
+            counter_0 += 1
+            n -= 1
+        else:
+            i += 1
+    return lst + [0] * counter_0
+
 def move_zeros_from_codewars(array):
     for i in array:
         if i == 0:
@@ -25,4 +37,5 @@ def move_zeros_from_codewars(array):
 arr = [9, 0, 0, 9, 1, 2, 0, 1, 0, 1, 0, 3, 0, 1, 9, 0, 0, 0, 0, 9]
 
 print(move_zeros_serge(arr))
+print(move_zeros_olga(arr))
 print(move_zeros_from_codewars(arr))
