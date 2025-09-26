@@ -20,7 +20,6 @@ def digital_root(n):
         print(n)
     return n
 
-
 def digital_root_serge(n):
     sum_digits = 0
     while n > 0:
@@ -40,3 +39,4 @@ def digital_root_codewars(n):
 print(digital_root(493193))
 print(digital_root_serge(6381075162925814503))
 print(digital_root_codewars(6381075162925814503))
+print(digital_root(578941111111111))
