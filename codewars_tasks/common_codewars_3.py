@@ -13,13 +13,11 @@ The input will be a non-negative integer.
 
 def digital_root(n):
     while n >= 10:
-    new = []
-        if len(str(n)) == 1:
-            print (n)
-        if len(str(n)) > 1:
-            for c in str(n):
-                new.append(int(c))
-                print(sum(new))
-    pass # your code here
+        new = []
+        for c in str(n):
+            new.append(int(c))
+            n = sum(new)
+        print(n)
+    return n
 
-print(digital_root(578878786))
+print(digital_root(578949494895486))
