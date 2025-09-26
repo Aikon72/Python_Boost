@@ -12,12 +12,14 @@ The input will be a non-negative integer.
 """
 
 def digital_root(n):
+    while n >= 10:
     new = []
         if len(str(n)) == 1:
             print (n)
         if len(str(n)) > 1:
             for c in str(n):
                 new.append(int(c))
+                print(sum(new))
     pass # your code here
 
-print(digital_root(493193))
+print(digital_root(56))
