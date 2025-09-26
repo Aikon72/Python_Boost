@@ -24,18 +24,35 @@ def remove_every_other_Olga(my_list):
 
 arr = [random.randint(1,100) for _ in range(1000) ]
 
+
+method = "sb"
+print("Проверяю метод: ", method)
 t1 = time.perf_counter()
 print(remove_every_other_sb(arr))
 t2 = time.perf_counter()
 print(t2-t1)
+max_value = t2 - t1
+quick_method = method
 
+method = "deepseek"
+print("Проверяю метод: ", method)
 t1 = time.perf_counter()
 print(remove_every_other_serge(arr))
 t2 = time.perf_counter()
 print(t2-t1)
+if t2 - t1 > max_value:
+    max_value = t2 - t1
+    quick_method = method
 
+method = "Olga"
+print("Проверяю метод: ", method)
 t1 = time.perf_counter()
 print(remove_every_other_Olga(arr))
 t2 = time.perf_counter()
 print(t2-t1)
+if t2 - t1 > max_value:
+    max_value = t2 - t1
+    quick_method = method
+
+print("Самый быстрый метод у: ", quick_method)
 
