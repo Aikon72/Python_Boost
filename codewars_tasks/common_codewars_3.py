@@ -20,4 +20,23 @@ def digital_root(n):
         print(n)
     return n
 
-print(digital_root(5789494948954860000000))
+
+def digital_root_serge(n):
+    sum_digits = 0
+    while n > 0:
+        while n > 0:
+            sum_digits += n % 10
+            n = n // 10
+        if sum_digits < 10:
+            return sum_digits
+        n = sum_digits
+        sum_digits = 0
+    return sum_digits
+
+# Вот это я не понял?
+def digital_root_codewars(n):
+	return n%9 or n and 9
+
+print(digital_root(493193))
+print(digital_root_serge(6381075162925814503))
+print(digital_root_codewars(6381075162925814503))
