@@ -20,4 +20,4 @@ def digital_root(n):
         print(n)
     return n
 
-print(digital_root(5789494948954860000000))
+print(digital_root(578941111111111))
