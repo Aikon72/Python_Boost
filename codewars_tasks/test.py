@@ -1,1 +1,3 @@
-print("Hello, привет")
+
+print("Hello, team")
+
