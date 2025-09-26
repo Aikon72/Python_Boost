@@ -22,4 +22,4 @@ def digital_root(n):
                 print(sum(new))
     pass # your code here
 
-print(digital_root(56))
+print(digital_root(578878786))
