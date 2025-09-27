@@ -11,13 +11,12 @@ The input will be a non-negative integer.
 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 """
 
-def digital_root(n):
+def digital_root_denis(n):
     while n >= 10:
         new = []
         for c in str(n):
             new.append(int(c))
             n = sum(new)
-        print(n)
     return n
 
 def digital_root_serge(n):
@@ -36,7 +35,7 @@ def digital_root_serge(n):
 def digital_root_codewars(n):
 	return n%9 or n and 9
 
-print(digital_root(493193))
+print(digital_root_denis(6381075162925814503))
 print(digital_root_serge(6381075162925814503))
 print(digital_root_codewars(6381075162925814503))
 print(digital_root(578941111111111))
