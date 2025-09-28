@@ -16,3 +16,14 @@ arr2 = [2, 4, 6]
 
 print(merge_arrays(arr1, arr2))
 print(merge_arrays_olga(arr1, arr2))
+
+
+def merge_list_denis (a, b):
+    unique = []
+    for item in a + b:
+        if item not in unique:
+            unique.append(item)
+    unique.sort()
+    return unique
+
+print(merge_list_denis(arr1, arr2))
