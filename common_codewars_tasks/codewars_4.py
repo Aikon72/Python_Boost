@@ -3,10 +3,16 @@
 # Also, the final outcome must be sorted and not have any duplicate.
 
 def merge_arrays(first, second):
-    # your code here
-    pass
+   pass
+
+
+def merge_arrays_olga(first, second):
+    answer = sorted(list(set(first + second)))
+    return answer
+
 
 arr1 = [2, 4, 8]
 arr2 = [2, 4, 6]
 
 print(merge_arrays(arr1, arr2))
+print(merge_arrays_olga(arr1, arr2))
