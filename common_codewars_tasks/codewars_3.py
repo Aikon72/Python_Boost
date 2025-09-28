@@ -31,10 +31,23 @@ def digital_root_serge(n):
         sum_digits = 0
     return sum_digits
 
+def digital_root_olga(n):
+    answer = n
+    while n > 9:
+        answer = 0
+        for c in str(n):
+            answer += int(c)
+        n = answer
+    return answer
+
 # Вот это я не понял?
 def digital_root_codewars(n):
 	return n%9 or n and 9
 
-print(digital_root_denis(6381075162925814503))
-print(digital_root_serge(6381075162925814503))
-print(digital_root_codewars(6381075162925814503))
+test_data = 6381075162925814503
+
+print(digital_root_denis(test_data))
+print(digital_root_serge(test_data))
+print(digital_root_codewars(test_data))
+print(digital_root_olga(test_data))
+
