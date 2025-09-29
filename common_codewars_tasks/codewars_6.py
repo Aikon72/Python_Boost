@@ -26,4 +26,42 @@ c = min(d)
 numbers = str(b) + " " + str(c)
 
 print(numbers)
- 
+
+#dmitry
+a = "1 2 3 4 5 462 7653 417653"
+a = a.split()
+numbers = []
+for i in a:
+    numbers.append(i)
+e = max(numbers)
+f = min(numbers)
+
+print(str(e) + " " + str(f))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
