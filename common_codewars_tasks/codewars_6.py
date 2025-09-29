@@ -32,7 +32,7 @@ a = "1 2 3 4 5 462 7653 417653"
 a = a.split()
 numbers = []
 for i in a:
-    numbers.append(i)
+    numbers.append(int(i))
 e = max(numbers)
 f = min(numbers)
 
