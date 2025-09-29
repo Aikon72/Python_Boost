@@ -39,3 +39,12 @@ arr = [9, 0, 0, 9, 1, 2, 0, 1, 0, 1, 0, 3, 0, 1, 9, 0, 0, 0, 0, 9]
 print(move_zeros_serge(arr))
 print(move_zeros_olga(arr))
 print(move_zeros_from_codewars(arr))
+
+#Dmitry
+def move_zeros(lst):
+    for c in lst:
+        if c == 0:
+            lst.remove(c)
+            lst.append(0)
+
+    return lst
