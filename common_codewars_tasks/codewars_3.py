@@ -1,0 +1,53 @@
+"""https://www.codewars.com/kata/541c8630095125aba6000c00
+Description:
+Digital root is the recursive sum of all the digits in a number.
+
+Given n, take the sum of the digits of n. If that value has more than one digit,
+continue reducing in this way until a single-digit number is produced.
+The input will be a non-negative integer.
+ 16  -->  1 + 6 = 7
+ 942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
+132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
+493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
+"""
+
+def digital_root_denis(n):
+    while n >= 10:
+        new = []
+        for c in str(n):
+            new.append(int(c))
+            n = sum(new)
+    return n
+
+def digital_root_serge(n):
+    sum_digits = 0
+    while n > 0:
+        while n > 0:
+            sum_digits += n % 10
+            n = n // 10
+        if sum_digits < 10:
+            return sum_digits
+        n = sum_digits
+        sum_digits = 0
+    return sum_digits
+
+def digital_root_olga(n):
+    answer = n
+    while n > 9:
+        answer = 0
+        for c in str(n):
+            answer += int(c)
+        n = answer
+    return answer
+
+# Вот это я не понял?
+def digital_root_codewars(n):
+	return n%9 or n and 9
+
+test_data = 6381075162925814503
+
+print(digital_root_denis(test_data))
+print(digital_root_serge(test_data))
+print(digital_root_codewars(test_data))
+print(digital_root_olga(test_data))
+
