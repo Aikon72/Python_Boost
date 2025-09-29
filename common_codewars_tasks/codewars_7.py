@@ -19,3 +19,13 @@ def ensure_question(s):
         return s
     else:
         return s + "?"
+
+# Denis
+def znak(s):
+    if s == '':
+        s = "?"
+    if s[-1] !='?':
+        s = s +"?"
+    return s
+print(znak(''))
+# Denis
