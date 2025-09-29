@@ -11,6 +11,8 @@ For example (Input --> Output)
 "Yes" --> "Yes?"
 "No?" --> "No?"
 """
+
+
 #Dmitry
 def ensure_question(s):
     if s.endswith("?"):
