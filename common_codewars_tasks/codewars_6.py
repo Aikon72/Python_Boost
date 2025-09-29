@@ -26,3 +26,4 @@ c = min(d)
 numbers = str(b) + " " + str(c)
 
 print(numbers)
+ 
