@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87267ee7-92ad-45d4-b628-0337c63d72bf" name="Changes" comment="dd/Digital root is the recursive sum of all the digits in a number." />
+    <list default="true" id="7c6f6b0f-3958-49e3-9b77-ef954911530c" name="Changes" comment="максимум и минимум через цикл 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,106 +20,49 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dd/cw5" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Dyb87&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Aikon72/Python_Boost.git",
-    "accountId": "978bbb02-5e60-4e03-8575-57e5c6a80b2c"
-  },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
-    },
-    "owner": "Aikon72",
-    "repository": "Python_Boost"
-  }
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
 }]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="33FG9qRuMQ4ge9ko4HldQB9lwab" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dd/cw5__2"
+    "Python.codewars_5.executor": "Run",
+    "Python.codewars_6.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main29__Denis__cod6"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-python-sdk-7e47963ff851-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.515" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="87267ee7-92ad-45d4-b628-0337c63d72bf" name="Changes" comment="" />
-      <created>1758905257513</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1758905257513</updated>
-    </task>
-    <task id="LOCAL-00001" summary="dd/create_test">
+    <task id="LOCAL-00001" summary="сумма чисел через цикл">
       <option name="closed" value="true" />
-      <created>1758905697037</created>
+      <created>1759129189832</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1758905697037</updated>
+      <updated>1759129189832</updated>
     </task>
-    <task id="LOCAL-00002" summary="dd/create_test">
+    <task id="LOCAL-00002" summary="сумма чисел через цикл">
       <option name="closed" value="true" />
-      <created>1758909078241</created>
+      <created>1759129329277</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1758909078241</updated>
+      <updated>1759129329277</updated>
     </task>
-    <task id="LOCAL-00003" summary="dd/cw5">
+    <task id="LOCAL-00003" summary="максимум и минимум через цикл">
       <option name="closed" value="true" />
-      <created>1759091567353</created>
+      <created>1759132642934</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1759091567353</updated>
+      <updated>1759132642934</updated>
     </task>
-    <task id="LOCAL-00004" summary="dd/Digital root is the recursive sum of all the digits in a number.">
-      <option name="closed" value="true" />
-      <created>1759091767049</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1759091767049</updated>
-    </task>
-    <task id="LOCAL-00005" summary="dd/Digital root is the recursive sum of all the digits in a number.">
-      <option name="closed" value="true" />
-      <created>1759091965644</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1759091965644</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,10 +77,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dd/create_test" />
-    <MESSAGE value="dd/cw5" />
-    <MESSAGE value="dd/Digital root is the recursive sum of all the digits in a number." />
-    <option name="LAST_COMMIT_MESSAGE" value="dd/Digital root is the recursive sum of all the digits in a number." />
-    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="Url" />
+    <MESSAGE value="сумма чисел через цикл" />
+    <MESSAGE value="максимум и минимум через цикл" />
+    <MESSAGE value="максимум и минимум через цикл 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="максимум и минимум через цикл 2" />
   </component>
 </project>
