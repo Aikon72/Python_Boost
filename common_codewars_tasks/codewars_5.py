@@ -20,3 +20,14 @@ def summa (a):
     return a
 
 print(summa(6212))
+
+#Dmitry
+def digital_root(n):
+    while n >= 10:
+        n = str(n)
+        a = []
+        for i in n:
+            a.append(int(i))
+            n = sum(a)
+
+    return n
