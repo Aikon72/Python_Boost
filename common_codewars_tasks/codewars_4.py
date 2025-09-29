@@ -27,3 +27,15 @@ def merge_list_denis (a, b):
     return unique
 
 print(merge_list_denis(arr1, arr2))
+
+#Dmitry
+def merge_arrays(first, second):
+    a = first + second
+    a = sorted(a)
+    result = []
+    for i in a:
+        if i not in result:
+            result.append(i)
+        elif i in result:
+            del(i)
+    return result
