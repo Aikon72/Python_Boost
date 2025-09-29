@@ -49,3 +49,8 @@ def remove_every_other(my_list):
             answ.append(my_list[i])
     return answ
 # Valeriy
+
+#Dmitry
+def remove_every_other(my_list):
+    a = my_list[::2]
+    return a
