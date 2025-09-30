@@ -19,8 +19,6 @@ def summa (a):
             a = sum(b)
     return a
 
-print(summa(6212))
-
 #Dmitry
 def digital_root(n):
     while n >= 10:
@@ -31,3 +29,13 @@ def digital_root(n):
             n = sum(a)
 
     return n
+
+def digital_root_serge(n):
+# Я это уже решал в задаче 3
+    return n
+
+n = 493193
+
+print(summa(n))
+print(digital_root(n))
+print(digital_root_serge(n))
