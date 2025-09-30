@@ -3,7 +3,7 @@
 # Also, the final outcome must be sorted and not have any duplicate.
 
 def merge_arrays(first, second):
-   pass
+    pass
 
 
 def merge_arrays_olga(first, second):
