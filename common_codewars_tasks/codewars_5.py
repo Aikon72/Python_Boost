@@ -43,3 +43,5 @@ n = 493193
 print(summa(n))
 print(digital_root(n))
 print(digital_root_serge(n))
+
+# тестовый комент
