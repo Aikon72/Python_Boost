@@ -30,6 +30,8 @@ def digital_root(n):
 
     return n
 
+#тестовый комментарий
+
 def digital_root_serge(n):
 # Я это уже решал в задаче 3
     return n
