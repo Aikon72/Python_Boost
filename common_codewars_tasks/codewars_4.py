@@ -2,6 +2,11 @@
 # Write a function that merges two sorted arrays into a single one. The arrays only contain integers.
 # Also, the final outcome must be sorted and not have any duplicate.
 
+
+def merge_arrays(first, second):
+    pass
+
+  
 def merge_arrays_olga(first, second):
     answer = sorted(list(set(first + second)))
     return answer
