@@ -61,6 +61,12 @@ def balance(book):
 
     return answer
 
+def balance_serge(book):
+    response = ""
+    strings = book.split("\n")
+    response += "Original Balance: {strings[0]}\r"
+    print(response)
+    return str
 
 
 b1 = """1000.00!=
@@ -90,3 +96,4 @@ b2 = """1233.00
 print(balance(b1))
 print(balance(b2))
 
+print(balance_serge(b1))

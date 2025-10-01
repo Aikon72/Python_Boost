@@ -30,9 +30,6 @@ def digital_root(n):
 
     return n
 
-#тестовый комментарий
-#тестовый комментарий2
-#тестовый комментарий
 
 def digital_root_serge(n):
 # Я это уже решал в задаче 3
@@ -43,5 +40,3 @@ n = 493193
 print(summa(n))
 print(digital_root(n))
 print(digital_root_serge(n))
-
-# тестовый комент
