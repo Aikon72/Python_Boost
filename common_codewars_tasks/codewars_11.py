@@ -27,3 +27,26 @@ def find_uniq(arr):
 arr = [1, 1, 1, 2, 1, 1, 1, 1]
 print(find_uniq(arr))
 
+#Dmitry
+def find_uniq(arr):
+    a = []
+    b = []
+
+    a.append(arr[0])
+    if arr[0] == arr[1]:
+        a.append(arr[1])
+    else:
+        b.append(arr[1])
+    for c in arr[2:]:
+        if c in a:
+            a.append(c)
+        if c not in a:
+            b.append(c)
+    if len(a) > len(b):
+        return b[0]
+    else:
+        return a[0]
+
+arr = [ 0, 0, 0.55, 0, 0 ]
+print(find_uniq(arr))
+
