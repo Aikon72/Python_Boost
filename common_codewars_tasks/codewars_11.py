@@ -64,3 +64,10 @@ print(find_uniq(arr))
 #                 return arr[i+1]
 #
 # print(find_uniq(array))
+
+'''Вариант решения от Яны, но на Codewars не проходит при нажатии на Attempt'''
+
+def find_uniq(arr):
+    for i in arr:
+        if arr.count(i) == 1:
+            return i
