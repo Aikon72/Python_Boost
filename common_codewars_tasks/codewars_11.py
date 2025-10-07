@@ -50,3 +50,17 @@ def find_uniq(arr):
 arr = [ 0, 0, 0.55, 0, 0 ]
 print(find_uniq(arr))
 
+
+# Вариант решения от Маша
+
+# array = [ 0, 3, 0, 0, 0, 0 ]
+#
+# def find_uniq(arr):
+#     for i in range(0, len(arr) - 1):
+#         if arr[i] != arr[i+1]:
+#             if i == 0 and arr[1] == arr[2]:
+#                 return arr[0]
+#             else:
+#                 return arr[i+1]
+#
+# print(find_uniq(array))
