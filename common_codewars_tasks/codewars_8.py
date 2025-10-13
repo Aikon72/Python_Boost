@@ -12,6 +12,7 @@ def opposite(number):
 
 print(opposite(1))
 print(opposite(-56))
+print(opposite(0))
 
 
 

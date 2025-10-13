@@ -7,3 +7,17 @@ We will consider a, e, i, o, u as vowels for this Kata (but not y).
 
 The input string will only consist of lower case letters and/or spaces.
 '''
+
+
+# Решение от Юлии:
+
+def count_vowels(n):
+    vowels = {'a', 'e', 'i', 'o', 'u'}
+    count = 0
+    for i in n:
+        if i in vowels:
+            count += 1
+    return count
+
+print(count_vowels('Hello'))
+print(count_vowels('Yuliya'))
